@@ -8,7 +8,13 @@
 </head>
 
 <body>
-    <h1 style="color: red"><?php echo $this->mensaje ?></h1>
+
+    <?php require_once 'views/header.php'; ?>
+    <section>
+        <h1 class="center error"><?php echo $this->mensaje; ?></h1>
+    </section>
+    <?php require_once 'views/footer.php'; ?>
+
 </body>
 
 </html>
